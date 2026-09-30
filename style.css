@@ -75,7 +75,30 @@ width:100%;
 
 }
 }
+.about-section{
+display: flex;
+flex-wrap:nowrap;
+align-items: center;
+justify-content: center;
+text-align: center;
+gap:4em;
+margin-top:20px;
+}
+.img-card >img{
+border-radius: 40px;
 
+}
+.about-button{
+padding:8px 8px 8px 8px;
+border-radius: 20px;
+border: none;
+}
+.about-button:hover{
+background-color:rgb(66, 99, 156);    
+transition: 0.8s;
+color: white;
+
+}
 
 
 
