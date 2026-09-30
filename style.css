@@ -25,3 +25,29 @@
     text-decoration: none;
     color:black;
 }
+.hero-container{
+background-image: url(hero\ \(2\).jpg);
+height: 80vh;
+width:100%;
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+display:flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero-button:hover{
+background-color:rgb(66, 99, 156);    
+transition: 0.8s;
+color: white;
+}
+.services-section{
+position: relative;
+text-align: center;
+
+}
+
+
