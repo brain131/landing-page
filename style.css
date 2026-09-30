@@ -45,9 +45,36 @@ transition: 0.8s;
 color: white;
 }
 .services-section{
+    margin-top:30px ;
 position: relative;
+display: flex;
+flex-wrap: nowrap;
+padding: 0;
+gap: 20px;
+justify-content: space-between;
+background-color: rgb(66, 99, 156);
+padding-left: 10px;
+color:azure;
+}
+@media screen and (max-width:1180px) {
+.services-section{
+ margin-top:30px ;
+position: relative;
+display:inline;
+flex-wrap: nowrap;
+padding: 0;
+gap: 20px;
+justify-content:center;
+
+padding-left: 10px;
+color: black;
 text-align: center;
+}
+.img-services>img{
+width:100%;
 
 }
+}
+
 
 
