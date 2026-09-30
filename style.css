@@ -161,10 +161,43 @@ background-repeat: no-repeat;
 background-size: cover;
 margin-top: 30px;
 
+
 }
 
+}
+footer{
+    display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+background-color:rgb(66, 99, 156); 
+margin-top: 20px;
+padding-bottom: 30px;
+}
+footer li{
+    list-style-type: none;
+}
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.about-us{
+background-image: url(hero\ \(2\).jpg);
+height: 80vh;
+width:100%;
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+display:flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: rgb(255, 255, 255);
 
-
+}
+.about-us a{
+text-decoration: none;
+color: aliceblue;
 
 
 }
