@@ -74,6 +74,7 @@ text-align: center;
 width:100%;
 
 }
+
 }
 .about-section{
 display: flex;
@@ -99,6 +100,21 @@ transition: 0.8s;
 color: white;
 
 }
+@media screen and (max-width:900px){
+.about-section{
+display:block;
+flex-wrap:nowrap;
+align-items: center;
+justify-content: center;
+text-align: center;
+gap:5em;
+margin-top:20px;
+}
+.img-card >img{
+width:100%;
 
+}
+
+}
 
 
